@@ -2,25 +2,25 @@ import { MapPin, Star, Camera } from 'lucide-react';
 
 const spots = [
   {
-    title: 'Kyoto Temples',
-    desc: 'Walk through centuries of history among serene shrines and bamboo forests.',
+    title: 'Shibuya Crossing',
+    desc: 'Join the world-famous scramble and feel the heartbeat of Tokyo at Hachiko Square.',
     icon: <MapPin className="h-5 w-5 text-rose-600" />,
     image:
-      'https://images.unsplash.com/photo-1545569341-9eb8b30979d1?q=80&w=1974&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1506629082955-511b1aa562c8?q=80&w=1974&auto=format&fit=crop',
   },
   {
-    title: 'Tokyo Nights',
-    desc: 'Experience dazzling skylines, pop culture, and cutting-edge cuisine.',
+    title: 'Hachiko Statue',
+    desc: 'Pay respects to Japan’s most loyal dog — a beloved local meeting point.',
     icon: <Star className="h-5 w-5 text-rose-600" />,
     image:
-      'https://images.unsplash.com/photo-1464802686167-b939a6910659?q=80&w=2070&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1519059063284-0bbfd04f0f35?q=80&w=1974&auto=format&fit=crop',
   },
   {
-    title: 'Mount Fuji',
-    desc: 'Catch sunrise over Japan’s iconic peak and surrounding lakes.',
+    title: 'Shibuya Sky',
+    desc: 'Take in panoramic views from the rooftop observatory above Shibuya Scramble Square.',
     icon: <Camera className="h-5 w-5 text-rose-600" />,
     image:
-      'https://images.unsplash.com/photo-1526483360412-f4dbaf036963?q=80&w=1974&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1526481280698-8fcc13fd2f9a?q=80&w=1974&auto=format&fit=crop',
   },
 ];
 
@@ -30,7 +30,7 @@ export default function Highlights() {
       <div className="mb-8">
         <h2 className="text-2xl md:text-3xl font-semibold text-slate-900">Highlights</h2>
         <p className="mt-2 text-slate-600 max-w-2xl">
-          A few unmissable moments — from tranquil temples to neon nights — to inspire your itinerary.
+          Essential Shibuya moments — from the bustling crossing to sky-high views and local icons.
         </p>
       </div>
 
